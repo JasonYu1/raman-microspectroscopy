@@ -12,7 +12,7 @@ The project is organized as three packages, each handling a separate concern.
 
 ## Components
 
-### [cns_control](https://github.com/JasonYu1/cns_control)
+### [cns_control](https://github.com/JasonYu1/cns-control)
 Hardware-specific control code for the spontaneous Raman microscope at the Harvard Center for Nanoscale Systems (CNS) facility. This package wraps the particular lasers, shutters, detectors, and DAQ devices on that instrument. **Users running on different hardware should adapt or replace this package to match their own setup** � it is intended as a reference implementation rather than a general-purpose driver layer.
 
 ### [raman_control](https://github.com/JasonYu1/raman-control)
