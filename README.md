@@ -58,6 +58,10 @@ A one-click launcher (`launch_napari.bat`) is also included for Windows users; s
 
 For scripted or exploratory workflows, see [`example_notebook.ipynb`](notebooks/example_notebook.ipynb) for a walkthrough of a typical acquisition.
 
+### Post-acquisition: dataset generation
+
+During or after an MDA run, use [`generate_dataset.ipynb`](notebooks/generate_dataset.ipynb) to assemble the raw tiffs and Raman `.npy` files into a compressed xarray/zarr dataset and a pandas DataFrame. The notebook also provides an interactive viewer for browsing brightfield images and clicking individual laser positions to inspect their spectra across time points, stage positions, and z planes. This step is also available as a button ("Generate dataset") in the napari widget's MDA section.
+
 ## License
 
 Each component is licensed under BSD-3-Clause. See the individual repositories for details.
